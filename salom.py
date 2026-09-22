@@ -1,6 +1,7 @@
 print("Salom Git!")
 print("Men Gitni organayapman!")
-print("Masterdagi variant!")
 print("Login branchdagi variant!")
+print("Login funksiyasi ustida ishlayapman!") 
+print("Masterdagi variant!")
 print("GitHubdan kelgan qator!")
 print("Clone orqali yozildi!") 
