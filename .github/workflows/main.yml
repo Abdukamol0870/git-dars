@@ -1,0 +1,17 @@
+name: Git dars
+
+on:
+  push:
+    branches:
+      - master
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Repositoryni yuklash
+        uses: actions/checkout@v4
+
+      - name: Test
+        run: echo "GitHub Actions ishlayapti!"
